@@ -163,6 +163,9 @@ a {
 .collection-list-item:hover .collection-overlay {
   opacity: 1;
 }
+.collection-list-item img {
+  width: 255px;
+}
 .collection-overlay {
   position: absolute;
   top: 0;
