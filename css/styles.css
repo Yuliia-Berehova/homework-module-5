@@ -71,8 +71,15 @@ a {
 .slider {
   position: relative;
 }
+.slider-wrapper {
+  position: relative;
+}
 .slider-image {
   object-fit: cover;
+}
+.slider-overlay {
+  width: 100%;
+  height: 100%;
 }
 .slider-overlay::before {
   position: absolute;
